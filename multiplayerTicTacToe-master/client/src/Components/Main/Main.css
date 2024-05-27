@@ -1,0 +1,47 @@
+main {
+  flex: 1;
+  display: grid;
+  place-content: center;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: var(--secondary-color);
+  gap: 0.5rem;
+}
+
+
+.win {
+  color: white;
+  background-color: #4caf50; /* Green background color for the win section */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
+
+.scores {
+  color: black;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
+.home-link {
+  margin-top: 23px;
+  color: #20215f; /* Change the color to your desired color */
+  text-decoration: none; /* Remove underline (if any) */
+  /* Add any other styles you want for the "Home" link */
+  transition:  0.3s; /* Add a smooth transition effect */
+  display: flex;align-items: center;
+  justify-content: center;
+}
+
+/* Hover effect for the "Home" link */
+.home-link:hover {
+
+  transform: scale(1.2); /* Scale the link by 10% on hover (adjust the value as needed) */
+}

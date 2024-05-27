@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Contact form to email.css">
+	<title>CODX</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+
+
+</head>
+<body>
+	
+	
+	<div class="container">
+		<img src="../favicon.ico" height="100px">
+		<h2>Get in Touch</h2>
+		<form onsubmit="emailSend(); reset(); return false;">
+			<input type="text" id="name" placeholder="name" name="name" required>
+			<input type="text" id="phone" placeholder="phone" name="phone" required>
+			<input type="email" id="email" placeholder="email" name="email" required>
+			<input type="text" id="message" placeholder="Message" name="Message" required>
+			<button type="submit" class="btn">Submit</button>
+			<div class="back-link">
+				<a href="../index.html" class="home-link">Go Back to Home</a>
+			</div>
+		</form>
+	</div> 
+	
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+	<script src="Contact form to email.js"></script>
+</body>
+</html>

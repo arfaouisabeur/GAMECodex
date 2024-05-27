@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #a632cd;
+}
+.container{
+	width: 350px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+}
+.container input{
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #777777;
+	margin-bottom: 20px;
+	font-size: 16px;
+	outline: none;
+}
+.btn{
+	border: none !important;
+	cursor: pointer;
+	background-color: #3932ffd4;
+	margin: 15px 0;
+	font-size: 16px;
+	width: 100%;
+	padding: 14px;
+	transition: background-color 0.5s ease, color 0.5s ease; 
+}
+.btn:hover{
+	background-color: #a632cd;
+	color: white;
+	
+}
+
+/* Style for the "Home" link */
+.home-link {
+    color: #20215f; /* Change the color to your desired color */
+    text-decoration: none; /* Remove underline (if any) */
+    /* Add any other styles you want for the "Home" link */
+    transition:  0.3s; /* Add a smooth transition effect */
+}
+
+/* Hover effect for the "Home" link */
+.home-link:hover {
+    transform: scale(1.2); /* Scale the link by 10% on hover (adjust the value as needed) */
+}
